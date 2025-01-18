@@ -51,19 +51,23 @@ function getNum9(num) {
 function getNum0(num) {
     history.value = history.value + num
 }
-function getNumPlus() {
-    history.value = history.value + "+"
+// function getNumPlus() {
+//     history.value = history.value + "+"
+// }
+
+// function getNumMinus() {
+//     history.value = history.value + "-"
+// }
+// function getNumYmnozit() {
+//     history.value = history.value + "*"
+// }
+// function getNumRazdelit() {
+//     history.value = history.value + "/"
+// }
+function getOperator(op) {
+    history.value = history.value + op
 }
 
-function getNumMinus() {
-    history.value = history.value + "-"
-}
-function getNumYmnozit() {
-    history.value = history.value + "*"
-}
-function getNumRazdelit() {
-    history.value = history.value + "/"
-}
 function getNumReset() {
     history.value = ""
     result.value = ""
@@ -72,7 +76,6 @@ function getNumReset() {
 function getNumRavno() {
     result.value = eval(history.value)
 }
-
 
 
 
