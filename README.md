@@ -1,2 +1,2 @@
-# calculator-js
-https://reykyt.github.io/calculator-js/
+# calculator-js 2.0
+ https://reykyt.github.io/calculator2.0/
