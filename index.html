@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="outer">
+        <h1>Калькулятор</h1>
+        <div class="centred">
+            <div class="calculator">
+
+                <div class="res">
+                    <input type="text" id="history" placeholder="" readonly>
+                    <input type="text" id="result" placeholder="" readonly>
+                </div>
+
+                <div id="list">
+                    <button id="list-itemC" class="button-menu" type="button" onclick="getNumReset()">C</button>
+                    <button id="list-item=" class="button-menu" type="button" onclick="getNumRavno()" id="convert">= </button>
+                    <button id="list-item+" class="button-menu" type="button" onclick="getNumPlus()">+</button>
+                    <button id="list-item-" class="button-menu" type="button" onclick="getNumMinus()">-</button>
+                    <button id=" list-item*" class="button-menu" type="button"onclick="getNumYmnozit()">*</button>
+                    <button id="list-item/" class="button-menu" type="button" onclick="getNumRazdelit()">/</button>
+                </div>
+                <div class="list2o">
+                    <button id="list-item1" class="button-num" type="button" onclick="getNum(1)">1</button>
+                    <button id="list-item2" class="button-num" type="button" onclick="getNum2(2)">2</button>
+                    <button id="list-item3" class="button-num" type="button" onclick="getNum3(3)">3</button>
+                    <button id="list-item4" class="button-num" type="button" onclick="getNum4(4)">4</button>
+                    <button id="list-item5" class="button-num" type="button" onclick="getNum5(5)">5</button>
+                    <button id="list-item6" class="button-num" type="button" onclick="getNum6(6)">6</button>
+                    <button id="list-item7" class="button-num" type="button" onclick="getNum7(7)">7</button>
+                    <button id="list-item8" class="button-num" type="button" onclick="getNum8(8)">8 </button>
+                    <button id="list-item9" class="button-num" type="button" onclick="getNum9(9)">9</button>
+                    <button id="list-item0" class="button-num" type="button" onclick="getNum0(0)">0</button>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
